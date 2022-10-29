@@ -70,5 +70,5 @@ const [i, , [j, k]] = nested;
 console.log(i, j, k);
 
 //Default values
-const [p = 1, q = 1, r = 1] = [8, 9];
+const [p = 1, q = 1, r = 1] = [8, 9]; // it can be useful when we get data from an API
 console.log(p, q, r);
