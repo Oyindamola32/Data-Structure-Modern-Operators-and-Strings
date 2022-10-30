@@ -28,14 +28,27 @@ const restaurant = {
   },
 
   ///////////////////////////////////////
-//Destructuring Objects
-const { name, openingHours, categories } = restaurant;
-console.log(name, openingHours, categories);
+  //Destructuring Objects
 
   order(starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
+  orderDelivery: function (starterIndex, mainIndex, time, address) {
+    console.log(`Order received! ${this.starterMenu} 
+      [starterIndex] and ${this.mainMenu[mainIndex]}
+      will be delivered to} ${address} at ${time}`);
+  },
 };
+
+restaurant.orderDelivery({
+  time: '22:30',
+  address: 'via del sole, 21',
+  mainIndex: 2,
+  starterIndex: 2,
+});
+
+const { name, openingHours, categories } = restaurant;
+console.log(name, openingHours, categories);
 
 const {
   name: restaurantName,
@@ -57,9 +70,9 @@ console.log(a, b);
 
 //Nested objects
 const {
-  fri:{open:o, close:c},
+  fri: { open: o, close: c },
 } = openingHours;
-console.log(0,c);
+console.log(0, c);
 
 /*
 ///////////////////////////////////////
