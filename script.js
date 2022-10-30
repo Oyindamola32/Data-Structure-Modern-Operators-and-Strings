@@ -27,6 +27,11 @@ const restaurant = {
     },
   },
 
+  ///////////////////////////////////////
+//Destructuring Objects
+const { name, openingHours, categories } = restaurant;
+console.log(name, openingHours, categories);
+
   order(starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
@@ -50,10 +55,11 @@ const obj = { a: 23, b: 7, c: 14 };
 ({ a, b } = obj);
 console.log(a, b);
 
-///////////////////////////////////////
-//Destructuring Objects
-const { name, openingHours, categories } = restaurant;
-console.log(name, openingHours, categories);
+//Nested objects
+const {
+  fri:{open:o, close:c},
+} = openingHours;
+console.log(0,c);
 
 /*
 ///////////////////////////////////////
