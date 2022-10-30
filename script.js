@@ -32,6 +32,13 @@ const restaurant = {
   },
 };
 
+const {
+  name: restaurantName,
+  openingHours: hours,
+  categories: tags,
+} = restaurant;
+console.log(restaurantName, hours, tags);
+
 ///////////////////////////////////////
 //Destructuring Objects
 const { name, openingHours, categories } = restaurant;
