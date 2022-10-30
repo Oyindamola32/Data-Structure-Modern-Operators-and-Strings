@@ -39,6 +39,9 @@ const {
 } = restaurant;
 console.log(restaurantName, hours, tags);
 
+const { menu = [], starterMenu: starters = [] } = restaurant;
+console.log(menu, starters);
+
 ///////////////////////////////////////
 //Destructuring Objects
 const { name, openingHours, categories } = restaurant;
