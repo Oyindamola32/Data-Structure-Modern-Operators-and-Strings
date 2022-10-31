@@ -50,6 +50,11 @@ const mainMenuCopy = [...restaurant.mainMenu];
 const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
 console.log(menu);
 
+//iterables: arrays, strings, maps, sets. NOT objects
+const str = 'Jonas';
+const letters = [...str, ' ', 'S.'];
+console.log(letters);
+
 /*
   ///////////////////////////////////////
   //Destructuring Objects
