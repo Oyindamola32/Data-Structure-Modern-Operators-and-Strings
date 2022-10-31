@@ -42,6 +42,14 @@ console.log(1, 2, 7, 8, 9);
 
 const newMenu = [...restaurant.mainMenu, 'Gnocci'];
 console.log(newMenu);
+
+//Copy array
+const mainMenuCopy = [...restaurant.mainMenu];
+
+//join 2 arrays
+const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+console.log(menu);
+
 /*
   ///////////////////////////////////////
   //Destructuring Objects
