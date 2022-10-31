@@ -77,10 +77,15 @@ const letters = [...str, ' ', 'S.'];
 console.log(letters);
 console.log(...str);
 
-const ingredients = [prompt("Let's make pasta! Ingredient 1?")];
-prompt('Ingredient 2?'), prompt('Ingredient 3');
+const ingredients = [
+  prompt("Let's make pasta! Ingredient 1?"),
+  prompt('Ingredient 2?'),
+  prompt('Ingredient 3'),
+];
 console.log(ingredients);
 
+restaurant.orderPasta(ingredients[0], ingredients[1]);
+restaurant.orderPasta(...ingredients);
 /*
   ///////////////////////////////////////
   //Destructuring Objects
