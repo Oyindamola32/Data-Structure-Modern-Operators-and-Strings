@@ -27,6 +27,25 @@ const restaurant = {
     },
   },
 
+  console.log(`Order received! ${this.starterMenu} 
+  [starterIndex] and ${this.mainMenu[mainIndex]}
+  will be delivered to} ${address} at ${time}`);
+},
+
+
+///////////////////////////////////////
+// The Spread Operator (...)
+const arr =[7, 8, 9];
+const badNewArr=[1, 2, arr[0],arr[1],arr[2]]
+console.log(badNewArr);
+
+const newArr=[1,2, ...arr]
+console.log(newArr);
+
+console.log(...newArr);
+console.log(1,2,7,8,9);
+
+/*
   ///////////////////////////////////////
   //Destructuring Objects
 
@@ -84,7 +103,7 @@ const {
 } = openingHours;
 console.log(0, c);
 
-/*
+
 ///////////////////////////////////////
 //Destructuring Arrays
 
@@ -126,6 +145,7 @@ const [i, , [j, k]] = nested;
 console.log(i, j, k);
 
 //Default values
-const [p = 1, q = 1, r = 1] = [8, 9]; // it can be useful when we get data from an API
+const [p = 1, q = 1, r = 1] = [8, 9]; // it can be useful when we get data from 
+an API
 console.log(p, q, r);
 */
