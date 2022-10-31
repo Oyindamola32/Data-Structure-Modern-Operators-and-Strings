@@ -94,7 +94,8 @@ console.log(newRestaurant);
 
 const restaurantCopy = { ...restaurant };
 restaurantCopy.name = 'Ristorante Roma';
-
+console.log(restaurantCopy.name);
+console.log(restaurant.name);
 /*
   ///////////////////////////////////////
   //Destructuring Objects
