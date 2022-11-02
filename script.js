@@ -49,6 +49,9 @@ const restaurant = {
   },
 };
 
+// Objects
+const { sat, ...weekdays } = restaurant.openingHours;
+console.log(weekdays);
 ///////////////////////////////////////
 // Rest Pattern and Parameters
 // 1) Destructuring
