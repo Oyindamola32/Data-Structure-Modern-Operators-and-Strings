@@ -58,7 +58,8 @@ const restaurant = {
 // Logical Assignment Operators
 const rest1 = {
   name: 'Capri',
-  numGuests: 20,
+  //numGuests: 20,
+  numGuests: 0,
 };
 
 const rest2 = {
@@ -66,8 +67,11 @@ const rest2 = {
   owner: 'Giovanni Rossi',
 };
 
-rest1.numGuests = rest1.numGuests || 10;
-rest2.numGuests = rest2.numGuests || 10;
+// OR assignment operator
+// rest1.numGuests = rest1.numGuests || 10;
+// rest2.numGuests = rest2.numGuests || 10;
+// rest1.numGuests ||= 10;  //same as prev
+// rest2.numGuests ||= 10;
 
 console.log(rest1);
 console.log(rest2);
