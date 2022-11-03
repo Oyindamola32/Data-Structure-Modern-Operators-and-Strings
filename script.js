@@ -86,6 +86,13 @@ Then, call the function again with players from game.scored
 
 GOOD LUCK 😀
 */
+// 1.
+const [players1, players2] = game.players;
+console.log(players1, players2);
+
+// 2.
+const [gk, ...fieldPlayers] = players1;
+console.log(gk, fieldPlayers);
 
 /*
 ///////////////////////////////////////
