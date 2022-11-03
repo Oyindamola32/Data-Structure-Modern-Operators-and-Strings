@@ -55,6 +55,13 @@ const restaurant = {
 };
 
 ///////////////////////////////////////
+// The Nullish Coalescing Operator
+restaurant.numGuests = 0;
+const guests = restaurant.numGuests || 10;
+console.log(guests);
+
+/*
+///////////////////////////////////////
 // Short Circuiting (&& and ||)
 
 console.log('---- OR ----');
@@ -86,7 +93,7 @@ if (restaurant.orderPizza) {
 
 restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
 
-/*
+
 ///////////////////////////////////////
 // Rest Pattern and Parameters
 // 1) Destructuring
