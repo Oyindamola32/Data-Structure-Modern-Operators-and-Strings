@@ -48,6 +48,13 @@ const restaurant = {
   },
 };
 
+///////////////////////////////////////
+//Optional Chaining(?.)
+console.log(restaurant.openingHours.mon);
+
+/*
+///////////////////////////////////////
+//The for-of loop
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
 for (const item of menu) console.log(item);
@@ -62,7 +69,7 @@ for (const [i, el] of menu.entries()) {
 
 //console.log([...menu.entries()]);
 
-/*
+
 ///////////////////////////////////////
 // Coding Challenge #1
 
