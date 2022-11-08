@@ -1,7 +1,7 @@
 'use strict';
 
 const weekdays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
-const openingHours = {
+const HoursOpen = {
   [weekdays[3]]: {
     open: 12,
     close: 22,
