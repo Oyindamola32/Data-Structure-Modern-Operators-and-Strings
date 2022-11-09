@@ -11,7 +11,7 @@ const openingHours = {
     close: 23,
   },
   [weekdays[5]]: {
-    open: 11, // Open 24 hours
+    open: 0, // Open 24 hours
     close: 12 + 12,
   },
 };
