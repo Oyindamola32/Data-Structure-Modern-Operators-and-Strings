@@ -21,7 +21,7 @@ const restaurant = {
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
-  mainMenu: ['Pizza', 'tin tomatoes', 'Risotto'],
+  mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
   // ES6 enhanced object literals
   openingHours,
