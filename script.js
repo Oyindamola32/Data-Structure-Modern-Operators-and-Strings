@@ -42,7 +42,7 @@ const restaurant = {
     );
   },
 
-  orderPizza(mainIngredient, ...otherIngredients) {
+  orderSharwama(mainIngredient, ...otherIngredients) {
     console.log(mainIngredient);
     console.log(otherIngredients);
   },
