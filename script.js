@@ -24,7 +24,6 @@ const restaurant = {
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
   // ES6 enhanced object literals
-  //i am oyindamola a student of Agricultural Econonics oau i am 23 years old
   openingHours,
 
   order(starterIndex, mainIndex) {
