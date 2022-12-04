@@ -6,7 +6,7 @@ const openingHours = {
     open: 12,
     close: 22,
   },
-  [weekdays[4]]: {
+  [weekdays[6]]: {
     open: 11,
     close: 23,
   },
@@ -18,7 +18,7 @@ const openingHours = {
 
 const restaurant = {
   name: 'Classico Italiano',
-  location: 'Via Angelo Tavanti 23, Britain, Italy',
+  location: 'Via Angelo Tavanti 23, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
