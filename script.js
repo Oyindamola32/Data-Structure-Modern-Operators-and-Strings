@@ -12,16 +12,16 @@ const openingHours = {
   },
   [weekdays[5]]: {
     open: 0, // Open 24 hours
-    close: 12 + 12,
+    close: 12 - 12,
   },
 };
 
 const restaurant = {
   name: 'Classico Italiano',
-  location: 'Via Angelo Tavanti 23 Ibadan, Firenze, Italy',
+  location: 'Via Angelo Tavanti, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
-  starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
-  mainMenu: ['Pizza', 'Pasta rice', 'Risotto'],
+  starterMenu: ['Focaccia', 'Bruschetta', 'Garlic', 'Caprese Salad'],
+  mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
   // ES6 enhanced object literals
   openingHours,
