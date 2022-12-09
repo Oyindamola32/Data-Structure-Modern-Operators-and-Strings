@@ -19,8 +19,8 @@ const openingHours = {
 const restaurant = {
   name: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
-  categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
-  starterMenu: ['Focaccia', 'Bruschetta', 'Garlic', 'Caprese Salad'],
+  categories: ['Italian', 'Pizzeriaa', 'Vegetarian', 'Organic'],
+  starterMenu: ['Focacciaa', 'Bruschetta', 'Garlic', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
   // ES6 enhanced object literals
