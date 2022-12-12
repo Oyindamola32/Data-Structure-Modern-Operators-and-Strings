@@ -7,7 +7,7 @@ const openingHours = {
     close: 22,
   },
   [weekdays[8]]: {
-    open: 11,
+    open: 10,
     close: 23,
   },
   [weekdays[9]]: {
@@ -21,7 +21,7 @@ const restaurant = {
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic', 'Caprese Salad'],
-  mainMenu: ['Pizza', 'Pasta', 'Risotto'],
+  mainMenu: ['Pizza', 'Pastaa', 'Risotto'],
 
   // ES6 enhanced object literals
   openingHours,
