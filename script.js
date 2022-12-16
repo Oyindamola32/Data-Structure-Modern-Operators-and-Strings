@@ -24,9 +24,9 @@ const restaurant = {
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
   // ES6 enhanced object literals
-  openingHours,
+  openingHoursl,
 
-  order(starterIndex, mainIndex) {
+  ordert(starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
 
