@@ -17,10 +17,10 @@ const openingHours = {
 };
 
 const restaurant = {
-  name: 'Classicor Italiano',
-  location: 'Via Angelof Tavanti 23, Firenze, Italy',
+  name: 'Classico Italiano',
+  location: 'Via Angelo Tavanti 23, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
-  starterMenu: ['Focacciat', 'Bruschetta', 'Garlic', 'Caprese Salad'],
+  starterMenu: ['Focaccia', 'Bruschetta', 'Garlic', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
   // ES6 enhanced object literals
