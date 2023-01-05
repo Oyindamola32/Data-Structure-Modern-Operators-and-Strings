@@ -36,13 +36,13 @@ const restaurant = {
     );
   },
 
-  orderPastaf(ing1, ing2, ing3) {
+  orderPasta(ing1, ing2, ing3) {
     console.log(
       `Here is your declicious pasta with ${ing1}, ${ing2} and ${ing3}`
     );
   },
 
-  s(mainIngredient, ...otherIngredients) {
+  orderPizza(mainIngredient, ...otherIngredients) {
     console.log(mainIngredient);
     console.log(otherIngredients);
   },
