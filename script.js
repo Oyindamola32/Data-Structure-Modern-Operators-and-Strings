@@ -42,7 +42,7 @@ const restaurant = {
     );
   },
 
-  orderPizza(mainIngredient, ...otherIngredients) {
+  orderPizzaz(mainIngredient, ...otheroIngredients) {
     console.log(mainIngredient);
     console.log(otherIngredients);
   },
