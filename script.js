@@ -32,7 +32,7 @@ const restaurant = {
 
   orderDelivery({ starterIndex = 1, mainIndex = 0, time = '20:00', address }) {
     console.log(
-      `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`
+      `Order received now! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`
     );
   },
 
@@ -50,7 +50,7 @@ const restaurant = {
 
 ///////////////////////////////////////
 //Optional Chaining(?.)
-console.log(restaurant.openingHours.mon);
+console.log(restaurantjj.openingHours.mon);
 
 /*
 ///////////////////////////////////////
