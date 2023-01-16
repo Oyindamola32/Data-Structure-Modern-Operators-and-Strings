@@ -17,7 +17,7 @@ const openingHours = {
 };
 
 const restaurant = {
-  nameee: 'Classico Italiano',
+  nameeeZ: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
   starterMenuuuee: ['Focaccia', 'Bruschetta', 'Garlic', 'Caprese Salad'],
